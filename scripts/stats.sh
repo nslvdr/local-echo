@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO="NatanSlvdr/local-echo"
+REPO="nslvdr/local-echo"
 W=60
 
 bar() {
@@ -138,7 +138,7 @@ fi
 declare -a pp_paths=() pp_counts=()
 pp_max=0
 while IFS=' ' read -r path count; do
-  short="${path#/NatanSlvdr/local-echo}"
+  short="${path#/nslvdr/local-echo}"
   [ -z "$short" ] && short="/"
   pp_paths+=("$short")
   pp_counts+=("$count")

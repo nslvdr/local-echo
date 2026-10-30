@@ -32,7 +32,7 @@ struct AboutPage: View {
                 LabeledContent("Compatibilité", value: "Mac Apple Silicon · macOS 13 ou ultérieur")
                 LabeledContent("Licence", value: "MIT")
                 LabeledContent("Code source") {
-                    Link(destination: URL(string: "https://github.com/NatanSlvdr/local-echo")!) {
+                    Link(destination: URL(string: "https://github.com/nslvdr/local-echo")!) {
                         Label("GitHub", systemImage: "arrow.up.right.square")
                     }
                 }

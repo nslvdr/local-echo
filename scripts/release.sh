@@ -3,7 +3,7 @@ set -euo pipefail
 
 cd "$(dirname "$0")/.."
 
-REPO="NatanSlvdr/local-echo"
+REPO="nslvdr/local-echo"
 VERSION_FILE="Sources/LocalEchoLib/Version.swift"
 CURRENT="$(sed -n 's/.*let version = "\([^"]*\)".*/\1/p' "$VERSION_FILE")"
 

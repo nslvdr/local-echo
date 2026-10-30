@@ -50,6 +50,6 @@ For changes to audio, permissions, hotkeys, or text insertion, use the signed ap
 
 Create a branch, make the change, run relevant tests, and open a pull request. Test audio and permission changes on a Mac because they depend on macOS hardware and system settings.
 
-Check the [open issues](https://github.com/NatanSlvdr/local-echo/issues) for bugs and feature requests.
+Check the [open issues](https://github.com/nslvdr/local-echo/issues) for bugs and feature requests.
 
 Keep the app small, use local processing, and match the existing code style. By contributing, you agree that your contributions are licensed under the MIT License.

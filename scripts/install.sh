@@ -1,10 +1,10 @@
 #!/bin/bash
 # Installs or updates Local-Echo from the latest GitHub release:
-#   curl -fsSL https://raw.githubusercontent.com/NatanSlvdr/local-echo/main/scripts/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/nslvdr/local-echo/main/scripts/install.sh | bash
 # Set LOCAL_ECHO_VERSION (for example 0.46.0) to install a specific release.
 set -euo pipefail
 
-REPO="NatanSlvdr/local-echo"
+REPO="nslvdr/local-echo"
 
 fail() {
     echo "Error: $*" >&2

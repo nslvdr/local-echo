@@ -16,10 +16,10 @@
 Local-Echo requires an Apple Silicon Mac with macOS 13 or later. To install or update it, run:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/NatanSlvdr/local-echo/main/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/nslvdr/local-echo/main/scripts/install.sh | bash
 ```
 
-The script downloads the latest [release](https://github.com/NatanSlvdr/local-echo/releases), checks its checksum, installs **Local-Echo.app** in `/Applications` (or `~/Applications` when `/Applications` is not writable), and starts it. Set `LOCAL_ECHO_VERSION=0.46.0` before `bash` to install a specific version.
+The script downloads the latest [release](https://github.com/nslvdr/local-echo/releases), checks its checksum, installs **Local-Echo.app** in `/Applications` (or `~/Applications` when `/Applications` is not writable), and starts it. Set `LOCAL_ECHO_VERSION=0.46.0` before `bash` to install a specific version.
 
 You can also download the zip from the releases page and move the app to **Applications** yourself. The app is not notarized, so macOS blocks the first launch of a browser download: open it once, then choose **System Settings → Privacy & Security → Open Anyway**.
 
@@ -138,12 +138,12 @@ Local-Echo is completely local. Audio is recorded to a temp file, transcribed by
 
 ## Roadmap
 
-Feature requests and ideas are welcome as [issues](https://github.com/NatanSlvdr/local-echo/issues).
+Feature requests and ideas are welcome as [issues](https://github.com/nslvdr/local-echo/issues).
 
 ## Build from source
 
 ```bash
-git clone https://github.com/NatanSlvdr/local-echo.git
+git clone https://github.com/nslvdr/local-echo.git
 cd local-echo
 bash scripts/build-whisper.sh
 bash scripts/build-swift.sh release
